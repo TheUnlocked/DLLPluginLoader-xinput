@@ -1,5 +1,7 @@
 #pragma once
 
+#pragma comment(lib, "dbghelp.lib")
+
 struct ReplaceImport
 {
 	static int Replace(const char * dllName, const char * funcName, PROC newFunc, PROC* oldFunc)
